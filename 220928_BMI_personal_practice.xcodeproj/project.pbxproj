@@ -15,6 +15,9 @@
 		6702E87928E43EE1007D9452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6702E87728E43EE1007D9452 /* LaunchScreen.storyboard */; };
 		6702E88128E4BEAA007D9452 /* bmi (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 6702E88028E4BEAA007D9452 /* bmi (1).png */; };
 		6724F29228E4C2710072D605 /* BMIFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6724F29128E4C2710072D605 /* BMIFormula.swift */; };
+		6724F29428E5C1FE0072D605 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6724F29328E5C1FE0072D605 /* Video.swift */; };
+		6724F29628E5C2C20072D605 /* bmi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6724F29528E5C2C20072D605 /* bmi.mp4 */; };
+		6724F29828E5C4090072D605 /* WebVeiwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6724F29728E5C4090072D605 /* WebVeiwController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		6702E87A28E43EE1007D9452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6702E88028E4BEAA007D9452 /* bmi (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bmi (1).png"; sourceTree = "<group>"; };
 		6724F29128E4C2710072D605 /* BMIFormula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIFormula.swift; sourceTree = "<group>"; };
+		6724F29328E5C1FE0072D605 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		6724F29528E5C2C20072D605 /* bmi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bmi.mp4; sourceTree = "<group>"; };
+		6724F29728E5C4090072D605 /* WebVeiwController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVeiwController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +70,14 @@
 				6702E86E28E43EE0007D9452 /* SceneDelegate.swift */,
 				6702E87028E43EE0007D9452 /* ViewController.swift */,
 				6724F29128E4C2710072D605 /* BMIFormula.swift */,
+				6724F29328E5C1FE0072D605 /* Video.swift */,
+				6724F29728E5C4090072D605 /* WebVeiwController.swift */,
 				6702E87228E43EE0007D9452 /* Main.storyboard */,
 				6702E87528E43EE1007D9452 /* Assets.xcassets */,
 				6702E87728E43EE1007D9452 /* LaunchScreen.storyboard */,
 				6702E87A28E43EE1007D9452 /* Info.plist */,
 				6702E88028E4BEAA007D9452 /* bmi (1).png */,
+				6724F29528E5C2C20072D605 /* bmi.mp4 */,
 			);
 			path = 220928_BMI_personal_practice;
 			sourceTree = "<group>";
@@ -131,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6724F29628E5C2C20072D605 /* bmi.mp4 in Resources */,
 				6702E88128E4BEAA007D9452 /* bmi (1).png in Resources */,
 				6702E87928E43EE1007D9452 /* LaunchScreen.storyboard in Resources */,
 				6702E87628E43EE1007D9452 /* Assets.xcassets in Resources */,
@@ -148,7 +158,9 @@
 				6702E87128E43EE0007D9452 /* ViewController.swift in Sources */,
 				6724F29228E4C2710072D605 /* BMIFormula.swift in Sources */,
 				6702E86D28E43EE0007D9452 /* AppDelegate.swift in Sources */,
+				6724F29828E5C4090072D605 /* WebVeiwController.swift in Sources */,
 				6702E86F28E43EE0007D9452 /* SceneDelegate.swift in Sources */,
+				6724F29428E5C1FE0072D605 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
